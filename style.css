@@ -177,3 +177,48 @@ img {
     padding: 100px 20px 30px;
     gap: 10px;
 }
+
+/* What I Do section ends  */
+
+/* Gallery section starts   grid-template-areas: "one two three"; */
+
+
+.my-amazing-works-parent {
+
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+    gap: 12px;
+    grid-auto-rows: 250px;
+  
+}
+
+.gallery img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box-1{
+    grid-area: one;
+}
+.box-2{
+    grid-area: two;
+}
+.box-3{
+    grid-area: three;
+}
+.box-4{
+    grid-area: four;
+}
+.box-5{
+    grid-area: five;
+}
+.box-6{
+    grid-area: six;
+}
