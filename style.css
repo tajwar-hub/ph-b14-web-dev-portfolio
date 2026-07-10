@@ -1,0 +1,179 @@
+* {
+    padding: 1px;
+    margin: 1px;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* common styles */
+
+.common-btn {
+    color: deeppink;
+    padding: 8px 7px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: medium;
+    background-color: orange;
+    border: none;
+}
+
+.second-btn {
+    color: rgb(228, 124, 26);
+    padding: 8px 7px;
+    border-radius: 1px;
+    font-weight: bold;
+    font-size: medium;
+    background-color: rgb(245, 248, 248);
+    border: 10;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Navigation Bar */
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.a {
+    color: blueviolet;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+
+
+
+/* Hero section starts  */
+
+
+.hero-parent-root {
+
+    background-color: antiquewhite;
+}
+
+.hero-parent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.hero-left h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hero-left p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* .hero-right{
+
+    border: 3px;
+    border-color: rgb(3, 21, 36);
+    max-width: 1000px;
+} */
+
+/* Hero section ends  */
+
+
+
+/* About Info section starts  */
+
+
+.about-parent {
+    background-color: rgb(247, 214, 214);
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.text {
+
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.info {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 100px 20px 30px;
+}
+
+
+
+/* About Info section ends  */
+
+
+
+/* What I Do  section starts  */
+
+
+.what-i-do-parent {
+
+    margin: 90px auto;
+    border-radius: 10px;
+    padding: 100px 20px;
+    background-color: rgb(238, 236, 236);
+    text-align: center;
+}
+
+.doings {
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.doing {
+
+    padding: 10px;
+    text-align: left;
+    font-size: 17px;
+    color: rgb(165, 164, 164);
+
+}
+
+.what-i-do-card-container {
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 100px 20px 30px;
+    gap: 10px;
+}
